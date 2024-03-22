@@ -1,7 +1,7 @@
 # Docker multi-stage build
 
 # 1. Building the App with Maven
-FROM maven:3.8.7-eclipse-temurin-19-alpine
+FROM maven:3.8.7-eclipse-temurin-17-alpine
 
 ADD . /java-springboot
 WORKDIR /java-springboot
