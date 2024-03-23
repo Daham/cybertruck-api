@@ -1,4 +1,4 @@
-package com.adamant.cybertruckapi;
+package com.adamant.orderapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package com.adamant.cybertruckapi.controller;
+package com.adamant.orderapi.controller;
 
 import lombok.RequiredArgsConstructor;
 import org.apache.commons.lang3.StringUtils;
