@@ -1,19 +1,9 @@
 openapi: 3.0.1
 info:
-  title: Cybertruck API
-  description: Cybertruck API
-  contact:
-    name: Daham
-    url: ''
-    email: dahampositha33@gmail.com
-  license:
-    name: Apache 2.0
-    url: http://www.apache.org/licenses/LICENSE-2.0
+  title: cybertruck-api
   version: 1.0.0
-  x-api-id: location-api
 servers:
-  - url: /
-    description: Local Server
+  - url: http://localhost:8080
 paths:
   /health:
     get:
