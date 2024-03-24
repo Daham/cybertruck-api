@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * The type Cybertruck api application.
  */
 @SpringBootApplication
-public class CybertruckApiApplication {
+public class OrderApiApplication {
 
   /**
    * The entry point of application.
@@ -15,7 +15,7 @@ public class CybertruckApiApplication {
    * @param args the input arguments
    */
   public static void main(String[] args) {
-    SpringApplication.run(CybertruckApiApplication.class, args);
+    SpringApplication.run(OrderApiApplication.class, args);
   }
 
 }

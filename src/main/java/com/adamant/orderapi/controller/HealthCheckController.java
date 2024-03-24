@@ -19,7 +19,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/health")
 public class HealthCheckController {
 
-  private final HealthEndpoint healthEndpoint;
+  private HealthEndpoint healthEndpoint;
 
   /**
    * Health response entity.
