@@ -10,5 +10,4 @@ public class ProductCreateResponseDto {
   private String name;
   private String description;
   private Double price;
-  private List<OrderItem> orderItems;
 }
